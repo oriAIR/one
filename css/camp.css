@@ -363,7 +363,7 @@ header h1 {
 
 section {
   position: relative;
-  height: 100vh;
+  height: 100vh !important;
 }
 section .detail {
   position: absolute;
@@ -578,5 +578,4 @@ a.scroll:after {
             transform-origin: 0 100%;
   }
 }
-
 /*# sourceMappingURL=camp.css.map */
