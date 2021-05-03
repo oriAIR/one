@@ -233,7 +233,6 @@ button:hover,
 
 body {
   overflow-x: hidden;
-  letter-spacing: 0.1em;
 }
 
 .wrapper {
@@ -325,6 +324,7 @@ header .btn-trigger.is-active span:nth-of-type(3) {
 header h1 {
   float: left;
   font-size: 5.6vw;
+  letter-spacing: 0.05em;
   color: #FFFFFF;
 }
 
@@ -354,6 +354,7 @@ header h1 {
 .font-eng {
   font-size: 125%;
   font-weight: normal;
+  letter-spacing: 0.05em;
 }
 
 .font-bold {
@@ -367,16 +368,17 @@ section {
 section .detail {
   position: absolute;
   display: table;
-  top: 50%;
+  top: 40%;
   left: 50%;
   text-align: center;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 section .detail h2 {
-  margin-bottom: 3vw;
-  font-size: 8vw;
+  margin-bottom: 5vw;
+  font-size: 12vw;
   font-weight: normal;
+  letter-spacing: 0.05em;
   color: darkblue;
 }
 section .detail h2.aco-trigger {
@@ -403,7 +405,7 @@ section .detail h2.aco-trigger:after {
   border-radius: 50%;
 }
 section .detail p {
-  font-size: 4vw;
+  font-size: 5vw;
   line-height: 1.4;
   white-space: nowrap;
   color: darkblue;
@@ -413,10 +415,19 @@ section .detail p.font-large {
   line-height: 1;
 }
 section .detail p.font-small {
-  font-size: 3vw;
+  font-size: 4vw;
+}
+section .detail p.name {
+  margin-top: 1em;
+  font-size: 4vw;
+  font-weight: bold;
+  line-height: 2;
 }
 section .detail p + p {
   margin-top: 0.5em;
+}
+section .detail p #day {
+  font-size: 14vw;
 }
 section .detail .table {
   display: table;
@@ -424,7 +435,7 @@ section .detail .table {
   margin-right: auto;
 }
 section .detail .table .time {
-  font-size: 3.4vw;
+  font-size: 4vw;
   text-align: left;
 }
 section .detail .table .time span + span {
@@ -440,7 +451,7 @@ section#pagetop {
   background: url(../images/bg.jpg) center/auto 100% no-repeat;
 }
 section#pagetop h2 {
-  margin-top: -20vw;
+  margin-top: -10vw;
   margin-bottom: 60vw;
   line-height: 1.4;
   font-weight: bold;
@@ -449,18 +460,21 @@ section#pagetop h2 {
           transform: rotate(-10deg);
 }
 section#pagetop figure {
-  margin-top: -10vw;
-  margin-bottom: 20vw;
+  margin-top: 15vw;
+  margin-bottom: 10vw;
 }
 section#pagetop figure img {
   width: 40vw;
-  height: 45.6vw;
+  height: 67.6vw;
 }
 section#location {
   background-color: limegreen;
 }
 section#member {
   background-color: deeppink;
+}
+section#member .detail {
+  top: 45%;
 }
 section#essentials {
   background-color: gold;
@@ -484,8 +498,9 @@ a.scroll {
   padding: 2vw 2vw 15vw;
   overflow: hidden;
   color: darkblue;
-  font-size: 3.4vw;
+  font-size: 4.5vw;
   line-height: 1;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
   -webkit-writing-mode: vertical-lr;
