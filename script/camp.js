@@ -1,7 +1,7 @@
 $(function () {
-
 	$.scrollify({
 		section: 'section',
+		setHeights : false
 	});
 
 	function headSize() {
