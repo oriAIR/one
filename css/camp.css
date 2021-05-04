@@ -471,13 +471,13 @@ section#location {
   background-color: limegreen;
 }
 section#member {
-  background-color: deeppink;
+  background-color: #FF3366;
 }
 section#member .detail {
   top: 45%;
 }
 section#essentials {
-  background-color: gold;
+  background-color: #FFCC00;
 }
 
 .aco-contents {
