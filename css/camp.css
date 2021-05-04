@@ -250,15 +250,15 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
-  width: 8vw;
-  height: 8vw;
+  width: 10vw;
+  height: 10vw;
   right: 3vw;
   bottom: 3vw;
   background-color: darkblue;
 }
 .pagetop .fas {
   color: #FFFFFF;
-  font-size: 5vw;
+  font-size: 7vw;
 }
 
 .contents {
@@ -363,7 +363,7 @@ header h1 {
 
 section {
   position: relative;
-  height: 100vh !important;
+  height: 100vh;
 }
 section .detail {
   position: absolute;
@@ -578,4 +578,5 @@ a.scroll:after {
             transform-origin: 0 100%;
   }
 }
+
 /*# sourceMappingURL=camp.css.map */
